@@ -42,7 +42,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "file_xs_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1001695792215))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1642086010"))
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://lazy:Zabintkhab7808@lazydev786.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://yeleci3611:1234@cluster0.vltv8hr.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001714207852")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001916608066")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
